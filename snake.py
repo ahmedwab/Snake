@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 pygame.display.set_caption('Snake Game')
-dis = pygame.display.set_mode((500, 400), pygame.FULLSCREEN)
+dis = pygame.display.set_mode((500, 400))
 pygame.display.update()
 game_over = False
 while not game_over:
